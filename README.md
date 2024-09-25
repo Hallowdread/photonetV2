@@ -1,7 +1,7 @@
 # photonetV2
 
 Typescript Version the Color Palette Made With Javascript : [photonet](https://github.com/Hallowdread/photonett)
-With an new feature(dark mode toggle)
+.With an new feature(dark mode toggle)
 
 ## pexels documentation
 
