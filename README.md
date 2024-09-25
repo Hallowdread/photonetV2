@@ -15,7 +15,7 @@ To get started with the Finance Logger Web App, follow these steps:
 
    ```bash
    git clone https://github.com/Hallowdread/photonetV2.git
-   cd color-paletteV2
+   cd photonetV2
    ```
 
 2. **Install dependencies:**
