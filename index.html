@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo-img.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photonet</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="logo-wrapper">
+          <a href="./index.html" id="logo"><img src="/logo-img.png" alt="logo-img" class="logo-img">Photonet</a>
+        </div>
+        <div class="theme-switch-wrapper">
+          <a href="" class="sun-icon"><i class="fas fa-sun"></i></a>
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle"/>
+            <div class="slider round"></div>
+          </label>
+          <a href="" class="moon-icon"><i class="fas fa-moon"></i></a>
+        </div>
+      </div>
+      <div class="header-two">
+        <h1 class="big-text">Expand <span class="span">your mind</span></h1>
+        <p class="small-text">Discover your favorite images</p>
+        <form class="search-form">
+          <input type="text" name="search" class="search-input" placeholder="Search here">
+          <button type="submit" class="submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <div class="gallery"></div>
+      <div class="nav-button">
+        <button class="more-btn">More</button>
+      </div>
+    </main>
+
+    <!--* Font Awesome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="module" src="./src/main.ts"></script>
+    <script type="module" src="./src/darkMode.ts"></script>
+  </body>
+</html>
