@@ -100,29 +100,5 @@ async function loadMore(): Promise<void> {
   generatePhotos(data);
 };
 
-// 
-// document.addEventListener("DOMContentLoaded", () => {
-//   const toggle = document.getElementById("darkModeToggle") as HTMLInputElement;
-//   // const info = document.querySelector(".gallery-img .info") as HTMLDivElement;
-
-//   //* Load User Prefrence From Local Storage
-//   const saveMode = localStorage.getItem("dark-mode");
-
-
-//   if (saveMode === "true") {
-//     galleryImg?.children[1].children[0].classList.add("dark-mode");
-//     toggle.checked = true;
-//   };
-
-//   toggle.addEventListener("change", () => {
-//     if (toggle.checked) {
-//       galleryImg?.children[1].children[0].classList.add("dark-mode");
-//       localStorage.setItem("dark-mode", "true");
-//     } else {
-//       galleryImg?.children[1].children[0].classList.remove("dark-mode");
-//       localStorage.setItem("dark-mode", "false");
-//     }
-//   });
-// });
 
 
